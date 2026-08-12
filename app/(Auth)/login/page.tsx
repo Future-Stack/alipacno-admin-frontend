@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
+// login component
 export default function Login() {
   const router = useRouter();
   const handleSubmit = (e: React.FormEvent) => {
