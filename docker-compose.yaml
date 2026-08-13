@@ -2,7 +2,7 @@ services:
   client_customer:
     restart: unless-stopped
     container_name: alipacno-admin-frontend
-    image: ghcr.io/Future-Stack/alipacno-admin-frontend:latest
+    image: ghcr.io/future-stack/alipacno-admin-frontend:latest
     build:
       context: .
       dockerfile: Dockerfile
