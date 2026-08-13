@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 };
 
 import { Toaster } from "sonner";
-import ReduxProvider from "../store/Provider";
+import ReduxProvider from "../providers/ReduxProvider";
 
 export default function RootLayout({
   children,
