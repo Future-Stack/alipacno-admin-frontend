@@ -1,8 +1,8 @@
 services:
   client_customer:
     restart: unless-stopped
-    container_name: alipacno-customer-frontend
-    image: ghcr.io/runtime-terror-rt/alipacno-customer-frontend:latest
+    container_name: alipacno-admin-frontend
+    image: ghcr.io/Future-Stack/alipacno-admin-frontend:latest
     build:
       context: .
       dockerfile: Dockerfile
